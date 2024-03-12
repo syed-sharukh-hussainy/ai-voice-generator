@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
   const response = await fetch(modelUrl, {
     headers: {
-      Authorization: `Bearer ${process.env.HUGGING_FACE_TOKEN}}`,
+      Authorization: `Bearer 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`,
     },
     method: "POST",
     body: JSON.stringify({ inputs: input }),
